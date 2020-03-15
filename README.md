@@ -1,6 +1,7 @@
 # Example: a Basic Linux App Service
 
 This example provisions a basic Linux App Service.
+Example code only. Run at your own risk. No guarantees/warranties.
 
 # Pre requisites:
 
