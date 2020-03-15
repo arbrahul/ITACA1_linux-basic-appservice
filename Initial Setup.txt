@@ -4,7 +4,7 @@ az sql server firewall-rule create -g SqlResourceGroup --server itaca1sqlsvrnonp
 
 az group create --name KvResourceGroup --location "North Europe"
 az keyvault create --location "North Europe" --name MasterKVitaca1 --resource-group KvResourceGroup
-az keyvault secret set --name sqlsecret --vault-name MasterKVitaca1 --value "secure password"
+az keyvault secret set --name itaca1nonprod --vault-name MasterKVitaca1 --value "secure password"
 
 az webapp deployment user set --user-name itaca1deployer --password "another secure password"
 
