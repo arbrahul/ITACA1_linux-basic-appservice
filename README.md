@@ -4,8 +4,9 @@ This example provisions a basic Linux App Service.
 
 # Pre requisites:
 
-An azure subscription
-A resource group with SQL server (hardcoded servernames, resource group names etc should be changed per need)
+--An azure subscription
+
+--A resource group with SQL server (hardcoded servernames, resource group names etc should be changed per need)
 
 Another resource group with a keyvault
 A key named sqlsecret and value = the password used while creating SQL server
